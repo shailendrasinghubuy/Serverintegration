@@ -2,6 +2,7 @@ package integration_UBUY;
 
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -10,23 +11,29 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 public class Server_Integration extends Keywords{
+	Logger logger = Logger.getLogger("devpinoyLogger");
 	
 	@Test
 	public void tc01LaunchURL() {
+		
 		webDriver.manage().window().maximize();
+		
 		webDriver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		webDriver.get("https://www.ubuy.ie/en/");
+		logger.info("open URL");
 	}
 
 	@Test
 	public void tc02SearchProducts() {
 		webDriver.findElement(By.xpath(search)).sendKeys("laptop");
+		logger.info("Search Lptop");
 		webDriver.findElement(By.xpath(clickonSaerchButton)).click();
 	}
 	
 	@Test
 	public void tc03SelecthProducts() {
 		webDriver.findElement(By.xpath(SelectProducts)).click();
+		
 	}
 
 	
