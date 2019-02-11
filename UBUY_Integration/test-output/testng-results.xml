@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="131324" started-at="2019-02-11T06:49:04Z" finished-at="2019-02-11T06:51:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="131324" started-at="2019-02-11T06:49:04Z" finished-at="2019-02-11T06:51:15Z">
+      <class name="integration_UBUY.Server_Integration">
+        <test-method status="PASS" signature="tc01LaunchURL()[pri:0, instance:integration_UBUY.Server_Integration@223aa2f7]" name="tc01LaunchURL" duration-ms="4039" started-at="2019-02-11T06:49:04Z" finished-at="2019-02-11T06:49:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01LaunchURL -->
+        <test-method status="PASS" signature="tc02SearchProducts()[pri:0, instance:integration_UBUY.Server_Integration@223aa2f7]" name="tc02SearchProducts" duration-ms="9459" started-at="2019-02-11T06:49:08Z" finished-at="2019-02-11T06:49:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02SearchProducts -->
+        <test-method status="PASS" signature="tc03SelecthProducts()[pri:0, instance:integration_UBUY.Server_Integration@223aa2f7]" name="tc03SelecthProducts" duration-ms="4020" started-at="2019-02-11T06:49:18Z" finished-at="2019-02-11T06:49:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03SelecthProducts -->
+        <test-method status="PASS" signature="tc04AddToCart()[pri:0, instance:integration_UBUY.Server_Integration@223aa2f7]" name="tc04AddToCart" duration-ms="24335" started-at="2019-02-11T06:49:22Z" finished-at="2019-02-11T06:49:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04AddToCart -->
+        <test-method status="PASS" signature="tc05ProceedToCheckout()[pri:0, instance:integration_UBUY.Server_Integration@223aa2f7]" name="tc05ProceedToCheckout" duration-ms="29965" started-at="2019-02-11T06:49:46Z" finished-at="2019-02-11T06:50:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05ProceedToCheckout -->
+        <test-method status="PASS" signature="tc06Login()[pri:0, instance:integration_UBUY.Server_Integration@223aa2f7]" name="tc06Login" duration-ms="26358" started-at="2019-02-11T06:50:16Z" finished-at="2019-02-11T06:50:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc06Login -->
+        <test-method status="PASS" signature="tc07ShippingInformation()[pri:0, instance:integration_UBUY.Server_Integration@223aa2f7]" name="tc07ShippingInformation" duration-ms="6739" started-at="2019-02-11T06:50:42Z" finished-at="2019-02-11T06:50:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc07ShippingInformation -->
+        <test-method status="PASS" signature="tc08ShippingMethod()[pri:0, instance:integration_UBUY.Server_Integration@223aa2f7]" name="tc08ShippingMethod" duration-ms="19038" started-at="2019-02-11T06:50:49Z" finished-at="2019-02-11T06:51:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc08ShippingMethod -->
+        <test-method status="PASS" signature="tc09PaymentOptions()[pri:0, instance:integration_UBUY.Server_Integration@223aa2f7]" name="tc09PaymentOptions" duration-ms="5581" started-at="2019-02-11T06:51:08Z" finished-at="2019-02-11T06:51:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc09PaymentOptions -->
+        <test-method status="PASS" signature="tc10OrderReview()[pri:0, instance:integration_UBUY.Server_Integration@223aa2f7]" name="tc10OrderReview" duration-ms="1709" started-at="2019-02-11T06:51:14Z" finished-at="2019-02-11T06:51:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc10OrderReview -->
+      </class> <!-- integration_UBUY.Server_Integration -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
