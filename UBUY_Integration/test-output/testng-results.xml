@@ -2,48 +2,48 @@
 <testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="65846" started-at="2019-02-11T12:34:35Z" finished-at="2019-02-11T12:35:41Z">
+  <suite name="Default suite" duration-ms="62226" started-at="2019-02-12T08:55:55Z" finished-at="2019-02-12T08:56:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="65846" started-at="2019-02-11T12:34:35Z" finished-at="2019-02-11T12:35:41Z">
+    <test name="Default test" duration-ms="62226" started-at="2019-02-12T08:55:55Z" finished-at="2019-02-12T08:56:57Z">
       <class name="integration_UBUY.Server_Integration">
-        <test-method status="PASS" signature="tc01LaunchURL()[pri:0, instance:integration_UBUY.Server_Integration@223aa2f7]" name="tc01LaunchURL" duration-ms="4570" started-at="2019-02-11T12:34:36Z" finished-at="2019-02-11T12:34:40Z">
+        <test-method status="PASS" signature="tc01LaunchURL()[pri:0, instance:integration_UBUY.Server_Integration@662b4c69]" name="tc01LaunchURL" duration-ms="4943" started-at="2019-02-12T08:55:55Z" finished-at="2019-02-12T08:56:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc01LaunchURL -->
-        <test-method status="PASS" signature="tc02SearchProducts()[pri:0, instance:integration_UBUY.Server_Integration@223aa2f7]" name="tc02SearchProducts" duration-ms="10100" started-at="2019-02-11T12:34:40Z" finished-at="2019-02-11T12:34:50Z">
+        <test-method status="PASS" signature="tc02SearchProducts()[pri:0, instance:integration_UBUY.Server_Integration@662b4c69]" name="tc02SearchProducts" duration-ms="8758" started-at="2019-02-12T08:56:00Z" finished-at="2019-02-12T08:56:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc02SearchProducts -->
-        <test-method status="PASS" signature="tc03SelecthProducts()[pri:0, instance:integration_UBUY.Server_Integration@223aa2f7]" name="tc03SelecthProducts" duration-ms="4202" started-at="2019-02-11T12:34:50Z" finished-at="2019-02-11T12:34:54Z">
+        <test-method status="PASS" signature="tc03SelecthProducts()[pri:0, instance:integration_UBUY.Server_Integration@662b4c69]" name="tc03SelecthProducts" duration-ms="2211" started-at="2019-02-12T08:56:09Z" finished-at="2019-02-12T08:56:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc03SelecthProducts -->
-        <test-method status="PASS" signature="tc04AddToCart()[pri:0, instance:integration_UBUY.Server_Integration@223aa2f7]" name="tc04AddToCart" duration-ms="5904" started-at="2019-02-11T12:34:54Z" finished-at="2019-02-11T12:35:00Z">
+        <test-method status="PASS" signature="tc04AddToCart()[pri:0, instance:integration_UBUY.Server_Integration@662b4c69]" name="tc04AddToCart" duration-ms="9524" started-at="2019-02-12T08:56:11Z" finished-at="2019-02-12T08:56:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc04AddToCart -->
-        <test-method status="PASS" signature="tc05ProceedToCheckout()[pri:0, instance:integration_UBUY.Server_Integration@223aa2f7]" name="tc05ProceedToCheckout" duration-ms="11486" started-at="2019-02-11T12:35:00Z" finished-at="2019-02-11T12:35:12Z">
+        <test-method status="PASS" signature="tc05ProceedToCheckout()[pri:0, instance:integration_UBUY.Server_Integration@662b4c69]" name="tc05ProceedToCheckout" duration-ms="8491" started-at="2019-02-12T08:56:21Z" finished-at="2019-02-12T08:56:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc05ProceedToCheckout -->
-        <test-method status="PASS" signature="tc06Login()[pri:0, instance:integration_UBUY.Server_Integration@223aa2f7]" name="tc06Login" duration-ms="11157" started-at="2019-02-11T12:35:12Z" finished-at="2019-02-11T12:35:23Z">
+        <test-method status="PASS" signature="tc06Login()[pri:0, instance:integration_UBUY.Server_Integration@662b4c69]" name="tc06Login" duration-ms="10477" started-at="2019-02-12T08:56:29Z" finished-at="2019-02-12T08:56:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc06Login -->
-        <test-method status="PASS" signature="tc07ShippingInformation()[pri:0, instance:integration_UBUY.Server_Integration@223aa2f7]" name="tc07ShippingInformation" duration-ms="5926" started-at="2019-02-11T12:35:23Z" finished-at="2019-02-11T12:35:29Z">
+        <test-method status="PASS" signature="tc07ShippingInformation()[pri:0, instance:integration_UBUY.Server_Integration@662b4c69]" name="tc07ShippingInformation" duration-ms="5831" started-at="2019-02-12T08:56:40Z" finished-at="2019-02-12T08:56:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc07ShippingInformation -->
-        <test-method status="PASS" signature="tc08ShippingMethod()[pri:0, instance:integration_UBUY.Server_Integration@223aa2f7]" name="tc08ShippingMethod" duration-ms="4450" started-at="2019-02-11T12:35:29Z" finished-at="2019-02-11T12:35:33Z">
+        <test-method status="PASS" signature="tc08ShippingMethod()[pri:0, instance:integration_UBUY.Server_Integration@662b4c69]" name="tc08ShippingMethod" duration-ms="4444" started-at="2019-02-12T08:56:46Z" finished-at="2019-02-12T08:56:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc08ShippingMethod -->
-        <test-method status="PASS" signature="tc09PaymentOptions()[pri:0, instance:integration_UBUY.Server_Integration@223aa2f7]" name="tc09PaymentOptions" duration-ms="6186" started-at="2019-02-11T12:35:33Z" finished-at="2019-02-11T12:35:39Z">
+        <test-method status="PASS" signature="tc09PaymentOptions()[pri:0, instance:integration_UBUY.Server_Integration@662b4c69]" name="tc09PaymentOptions" duration-ms="5843" started-at="2019-02-12T08:56:50Z" finished-at="2019-02-12T08:56:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc09PaymentOptions -->
-        <test-method status="PASS" signature="tc10OrderReview()[pri:0, instance:integration_UBUY.Server_Integration@223aa2f7]" name="tc10OrderReview" duration-ms="1791" started-at="2019-02-11T12:35:39Z" finished-at="2019-02-11T12:35:41Z">
+        <test-method status="PASS" signature="tc10OrderReview()[pri:0, instance:integration_UBUY.Server_Integration@662b4c69]" name="tc10OrderReview" duration-ms="1656" started-at="2019-02-12T08:56:56Z" finished-at="2019-02-12T08:56:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc10OrderReview -->
